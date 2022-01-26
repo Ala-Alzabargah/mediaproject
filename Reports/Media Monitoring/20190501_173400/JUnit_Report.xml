@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Media Monitoring" time="10" tests="2" failures="0" errors="0">
+   <testsuite name="Media Monitoring" tests="2" failures="0" errors="0" time="10" timestamp="2019-05-01 17:34:11" hostname="Mujahed - WSK-JOR-BM-PZ07" id="Test Suites/Media Monitoring">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mujahed\\Desktop\\mediaProject\\Reports\\Media Monitoring\\20190501_173400"/>
+         <property name="logFiles" value="C:\\Users\\Mujahed\\Desktop\\mediaProject\\Reports\\Media Monitoring\\20190501_173400\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mujahed - WSK-JOR-BM-PZ07"/>
+         <property name="hostAddress" value="169.254.172.185"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/CheckClips" classname="Test Cases/CheckClips" status="PASSED">
+         <system-out><![CDATA[2019-05-01 17:34:12 - [TEST_CASE][PASSED] - Test Cases/CheckClips: Test Cases/CheckClips
+
+2019-05-01 17:34:12 - [TEST_STEP][PASSED] - ClipsID = shahid.api.CropResponse.getResponse("CLIP"): shahid.api.CropResponse.getResponse is PASSED
+
+2019-05-01 17:34:15 - [MESSAGE][PASSED] - shahid.api.CropResponse.getResponse is PASSED
+
+2019-05-01 17:34:15 - [TEST_STEP][PASSED] - ID = ClipsID.split(","): null
+
+2019-05-01 17:34:15 - [TEST_STEP][PASSED] - for ([i = 0, i <= 2, (i++)]): null
+
+2019-05-01 17:34:15 - [TEST_STEP][PASSED] - PlayoutURL = "https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]: null
+
+2019-05-01 17:34:16 - [TEST_STEP][PASSED] - PlayOut = shahid.api.SendMediaReq.SendRequest("https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]): shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:18 - [MESSAGE][INFO] - HAR: C:\Users\Mujahed\Desktop\mediaProject\Reports\Media Monitoring\20190501_173400\requests\main\0.har
+
+2019-05-01 17:34:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-01 17:34:18 - [MESSAGE][PASSED] - shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - responseCode = getStatusCode().toString(): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - Temp2 = responseBody.split(","): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - fullURL = Temp2[9]: null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - Temp6 = fullURL.split("""): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - ActualURL = Temp6[3]: null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - if (ActualURL.contains("m3u8")): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - result = new shahid.api.Result(): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - result.setURL(PlayoutURL): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - result.setStatuscode(responseCode): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - result.setResponse(responseBody): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - result.setApiname("Media URL Contains Space"): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - getInstance().addResult(result): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - if (responseCode != "200"): null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - PlayoutURL = "https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]: null
+
+2019-05-01 17:34:18 - [TEST_STEP][PASSED] - PlayOut = shahid.api.SendMediaReq.SendRequest("https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]): shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:19 - [MESSAGE][INFO] - HAR: C:\Users\Mujahed\Desktop\mediaProject\Reports\Media Monitoring\20190501_173400\requests\main\1.har
+
+2019-05-01 17:34:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-01 17:34:19 - [MESSAGE][PASSED] - shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - responseCode = getStatusCode().toString(): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - Temp2 = responseBody.split(","): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - fullURL = Temp2[9]: null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - Temp6 = fullURL.split("""): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - ActualURL = Temp6[3]: null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - if (ActualURL.contains("m3u8")): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - result = new shahid.api.Result(): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - result.setURL(PlayoutURL): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - result.setStatuscode(responseCode): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - result.setResponse(responseBody): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - result.setApiname("Media URL Contains Space"): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - getInstance().addResult(result): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - if (responseCode != "200"): null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - PlayoutURL = "https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]: null
+
+2019-05-01 17:34:19 - [TEST_STEP][PASSED] - PlayOut = shahid.api.SendMediaReq.SendRequest("https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]): shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:20 - [MESSAGE][INFO] - HAR: C:\Users\Mujahed\Desktop\mediaProject\Reports\Media Monitoring\20190501_173400\requests\main\2.har
+
+2019-05-01 17:34:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-01 17:34:20 - [MESSAGE][PASSED] - shahid.api.SendMediaReq.SendRequest is PASSED
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - responseCode = getStatusCode().toString(): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - Temp2 = responseBody.split(","): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - fullURL = Temp2[9]: null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - Temp6 = fullURL.split("""): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - ActualURL = Temp6[3]: null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - if (ActualURL.contains("m3u8")): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - result = new shahid.api.Result(): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - result.setURL(PlayoutURL): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - result.setStatuscode(responseCode): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - result.setResponse(responseBody): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - result.setApiname("Media URL Contains Space"): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - getInstance().addResult(result): null
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - if (responseCode != "200"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Result" classname="Test Cases/Result" status="PASSED">
+         <system-out><![CDATA[2019-05-01 17:34:20 - [TEST_CASE][PASSED] - Test Cases/Result: Test Cases/Result
+
+2019-05-01 17:34:20 - [TEST_STEP][PASSED] - shahid.api.SubmitFail.submitPatch(): shahid.api.SubmitFail.submitPatch is PASSED
+
+2019-05-01 17:34:21 - [MESSAGE][PASSED] - shahid.api.SubmitFail.submitPatch is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-01 17:34:11 - [TEST_SUITE][PASSED] - Media Monitoring: Test Cases/Result]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

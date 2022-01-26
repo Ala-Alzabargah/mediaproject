@@ -1,0 +1,155 @@
+{
+  "keywordFileContentHash": "7DE1A4C46CB63BEAE0EA4425A8A10500",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.Result",
+      "keywordMethods": [
+        {
+          "name": "getResponse",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setResponse",
+          "parameters": [
+            {
+              "name": "response",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getStatuscode",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setStatuscode",
+          "parameters": [
+            {
+              "name": "statuscode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getAssetID",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setAssetID",
+          "parameters": [
+            {
+              "name": "assetID",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getDRM",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDRM",
+          "parameters": [
+            {
+              "name": "DRM",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getDRMStatusCode",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDRMStatusCode",
+          "parameters": [
+            {
+              "name": "DRMStatusCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getStatus",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setStatus",
+          "parameters": [
+            {
+              "name": "status",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

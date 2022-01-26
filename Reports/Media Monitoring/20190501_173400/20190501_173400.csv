@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Media Monitoring,,,2019-05-01 17:34:11,2019-05-01 17:34:21,10.061s,PASSED
+,,,,,,
+Test Cases/CheckClips,,,2019-05-01 17:34:12,2019-05-01 17:34:20,8.043s,PASSED
+"ClipsID = shahid.api.CropResponse.getResponse(""CLIP"")",,,2019-05-01 17:34:12,2019-05-01 17:34:15,3.293s,PASSED
+"ID = ClipsID.split("","")",,,2019-05-01 17:34:15,2019-05-01 17:34:15,0.002s,PASSED
+"for ([i = 0, i <= 2, (i++)])",,,2019-05-01 17:34:15,2019-05-01 17:34:20,4.077s,PASSED
+,,,,,,
+Test Cases/Result,,,2019-05-01 17:34:20,2019-05-01 17:34:21,1.551s,PASSED
+shahid.api.SubmitFail.submitPatch(),,,2019-05-01 17:34:20,2019-05-01 17:34:21,1.383s,PASSED

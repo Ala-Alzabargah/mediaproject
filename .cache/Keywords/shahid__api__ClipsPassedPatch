@@ -1,0 +1,69 @@
+{
+  "keywordFileContentHash": "700920C5AFC1BB437993130D5D2F22F9",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.ClipsPassedPatch",
+      "keywordMethods": [
+        {
+          "name": "Patch",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getClipsPassedInstance",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getClipsPassedResults",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addClipsPassedResult",
+          "parameters": [
+            {
+              "name": "result",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "shahid.api.PassedResult",
+                "unresolvedClassName": "PassedResult",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getTimestamp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setTimestamp",
+          "parameters": [
+            {
+              "name": "timestamp",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Media Monitoring" time="6.63" tests="2" failures="0" errors="1">
+   <testsuite name="Media Monitoring" tests="2" failures="0" errors="1" time="6.63" skipped="0" timestamp="2022-01-24 01:16:14" hostname="alalzabarga - 192.168.1.17" id="Test Suites/Media Monitoring">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607"/>
+         <property name="logFiles" value="/Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alalzabarga - 192.168.1.17"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/CheckClips" time="4.765" classname="Test Cases/CheckClips" status="ERROR">
+         <error type="ERROR" message="Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+"/>
+         <system-out><![CDATA[2022-01-24 01:16:14 - [TEST_CASE][ERROR] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+
+
+2022-01-24 01:16:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("getToken"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:14 - [TEST_CASE][PASSED] - Test Cases/getToken: Test Cases/getToken
+
+2022-01-24 01:16:14 - [TEST_STEP][PASSED] - Ssession = SendMediaReq().getSssesion(): Test object id is null
+
+2022-01-24 01:16:15 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/0.har
+
+2022-01-24 01:16:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:16 - [MESSAGE][WARNING] - Test object id is null
+
+2022-01-24 01:16:16 - [MESSAGE][WARNING] - Test object id is null
+
+2022-01-24 01:16:16 - [TEST_STEP][PASSED] - println("Ssession:: " + Ssession): null
+
+2022-01-24 01:16:16 - [TEST_STEP][PASSED] - count = 4: null
+
+2022-01-24 01:16:16 - [TEST_STEP][PASSED] - for ([i = 0, i < count, (i++)]): null
+
+2022-01-24 01:16:16 - [TEST_STEP][PASSED] - authenticate = sendRequest(findTestObject("Object Repository/newPostmanAPIs/validateLogin", ["ssession":Ssession])): Send request successfully
+
+2022-01-24 01:16:17 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/1.har
+
+2022-01-24 01:16:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - println("authenticate:: " + authenticate): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(authenticate, 200): Verify response status code successfully
+
+2022-01-24 01:16:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - user = new org.json.JSONObject(authenticate.responseBodyContent): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - token = get("user").get("sessionId"): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - userId = get("user").get("id"): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - userEmail = get("user").get("email"): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - Token = token: null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - println("tokenValue::" + Token): null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - userId = userId: null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - userEmail = userEmail: null
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - markPassed("Response status codes match"): Response status codes match
+
+2022-01-24 01:16:17 - [MESSAGE][PASSED] - Response status codes match
+
+2022-01-24 01:16:17 - [TEST_STEP][PASSED] - break: null
+
+2022-01-24 01:16:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - ids = [932474, 932470, 932456, 11112, 932447, "failed", 932444]: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - statusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - DRMStatusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:16:18 - [TEST_STEP][ERROR] - for ([i = 0, i < ids.size(), (i++)]): Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - println("******** id:: " + ids[i]): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:16:18 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/2.har
+
+2022-01-24 01:16:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:16:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:16:18 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:16:19 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/3.har
+
+2022-01-24 01:16:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - DRMStatusCode = getStatusCode().toString(): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:16:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:16:19 - [TEST_STEP][ERROR] - catch (Exception e): Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+
+
+2022-01-24 01:16:19 - [TEST_STEP][ERROR] - failedResult.setAssetID(itemPlayoutID): Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+
+
+2022-01-24 01:16:19 - [MESSAGE][ERROR] - Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)
+
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - println("testCaseContext.getTestCaseId():: " + testCaseContext.getTestCaseId()): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - if (!(getTestCaseId().contains("sendEmailtest") || getTestCaseId().contains("Result") || getTestCaseId().contains("getDrmToken") || getTestCaseId().contains("getiTuensBaseToken") || getTestCaseId().contains("getSsession"))): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[2022-01-24 01:16:14 - [TEST_CASE][ERROR] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sendEmailtest" time="1.689" classname="Test Cases/sendEmailtest" status="PASSED">
+         <system-out><![CDATA[2022-01-24 01:16:19 - [TEST_CASE][PASSED] - Test Cases/sendEmailtest: Test Cases/sendEmailtest
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("getToken"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:19 - [TEST_CASE][PASSED] - Test Cases/getToken: Test Cases/getToken
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - Ssession = SendMediaReq().getSssesion(): Send request successfully
+
+2022-01-24 01:16:19 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/4.har
+
+2022-01-24 01:16:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - println("Ssession:: " + Ssession): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - count = 4: null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - for ([i = 0, i < count, (i++)]): null
+
+2022-01-24 01:16:19 - [TEST_STEP][PASSED] - authenticate = sendRequest(findTestObject("Object Repository/newPostmanAPIs/validateLogin", ["ssession":Ssession])): Send request successfully
+
+2022-01-24 01:16:20 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_011607/Media Monitoring/20220124_011607/requests/main/5.har
+
+2022-01-24 01:16:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - println("authenticate:: " + authenticate): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(authenticate, 200): Verify response status code successfully
+
+2022-01-24 01:16:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - user = new org.json.JSONObject(authenticate.responseBodyContent): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - token = get("user").get("sessionId"): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - userId = get("user").get("id"): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - userEmail = get("user").get("email"): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - Token = token: null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - println("tokenValue::" + Token): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - userId = userId: null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - userEmail = userEmail: null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - markPassed("Response status codes match"): Response status codes match
+
+2022-01-24 01:16:20 - [MESSAGE][PASSED] - Response status codes match
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - break: null
+
+2022-01-24 01:16:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - println("clipsFailedResult Size = " + clipsFailedResult.size()): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - emailBody = "": null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - if (clipsFailedResult.size() > 0): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - println("testCaseContext.getTestCaseId():: " + testCaseContext.getTestCaseId()): null
+
+2022-01-24 01:16:20 - [TEST_STEP][PASSED] - if (!(getTestCaseId().contains("sendEmailtest") || getTestCaseId().contains("Result") || getTestCaseId().contains("getDrmToken") || getTestCaseId().contains("getiTuensBaseToken") || getTestCaseId().contains("getSsession"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-24 01:16:14 - [TEST_SUITE][ERROR] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-24 01:16:14 - [TEST_SUITE][ERROR] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: shahid.api.ClipsFailedResult.setAssetID() is applicable for argument types: (java.lang.Integer) values: [932474]
+Possible solutions: setAssetID(java.lang.String), getAssetID()
+	at CheckClips.run(CheckClips:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642979767375.run(TempTestSuite1642979767375.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,44 @@
+{
+  "keywordFileContentHash": "3A40FD6C030BC57D40D2188D8125C5BB",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.SubmitFail2",
+      "keywordMethods": [
+        {
+          "name": "main",
+          "parameters": [
+            {
+              "name": "args",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "submitPatch2",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

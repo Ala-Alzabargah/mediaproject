@@ -1,0 +1,187 @@
+{
+  "keywordFileContentHash": "1F2C665968995F0757B0EE3191A88DC5",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.EpisodesFailedResult",
+      "keywordMethods": [
+        {
+          "name": "getPlayoutResponse",
+          "parameters": []
+        },
+        {
+          "name": "setPlayoutResponse",
+          "parameters": [
+            {
+              "name": "playoutResponse",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getUrlStatus",
+          "parameters": []
+        },
+        {
+          "name": "setUrlStatus",
+          "parameters": [
+            {
+              "name": "urlStatus",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getUrlValue",
+          "parameters": []
+        },
+        {
+          "name": "setUrlValue",
+          "parameters": [
+            {
+              "name": "urlValue",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "setPlayoutStatus",
+          "parameters": []
+        },
+        {
+          "name": "setPlayoutStatus",
+          "parameters": [
+            {
+              "name": "playoutStatus",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getAssetID",
+          "parameters": []
+        },
+        {
+          "name": "setAssetID",
+          "parameters": [
+            {
+              "name": "assetID",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getDRMStatus",
+          "parameters": []
+        },
+        {
+          "name": "setDRMStatus",
+          "parameters": [
+            {
+              "name": "DRMStatus",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getStatus",
+          "parameters": []
+        },
+        {
+          "name": "setStatus",
+          "parameters": [
+            {
+              "name": "status",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getDRMResponse",
+          "parameters": []
+        },
+        {
+          "name": "setDRMResponse",
+          "parameters": [
+            {
+              "name": "DRMResponse",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

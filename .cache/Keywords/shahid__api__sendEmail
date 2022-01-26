@@ -1,0 +1,20 @@
+{
+  "keywordFileContentHash": "3EAEEEB92CADE4988F00B1FF6B2A6EC1",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.SMTPAuthenticator",
+      "keywordMethods": []
+    },
+    {
+      "name": "shahid.api.sendEmail",
+      "keywordMethods": [
+        {
+          "name": "sendMailByGroovy",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

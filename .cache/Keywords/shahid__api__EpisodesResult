@@ -1,0 +1,107 @@
+{
+  "keywordFileContentHash": "437649F1CD08C85EADC0A2827B6B592E",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.EpisodesResult",
+      "keywordMethods": [
+        {
+          "name": "getResponse",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setResponse",
+          "parameters": [
+            {
+              "name": "response",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getStatuscode",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setStatuscode",
+          "parameters": [
+            {
+              "name": "statuscode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getApiname",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setApiname",
+          "parameters": [
+            {
+              "name": "apiname",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getURL",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setURL",
+          "parameters": [
+            {
+              "name": "URL",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

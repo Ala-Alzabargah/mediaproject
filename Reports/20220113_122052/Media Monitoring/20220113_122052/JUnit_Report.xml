@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Media Monitoring" time="2.498" tests="2" failures="0" errors="1">
+   <testsuite name="Media Monitoring" tests="2" failures="0" errors="1" time="2.498" skipped="0" timestamp="2022-01-13 12:20:58" hostname="alalzabarga - localhost" id="Test Suites/Media Monitoring">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alalzabarga/git/mediaProject/Reports/20220113_122052/Media Monitoring/20220113_122052"/>
+         <property name="logFiles" value="/Users/alalzabarga/git/mediaProject/Reports/20220113_122052/Media Monitoring/20220113_122052/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alalzabarga - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/CheckClips" time="2.195" classname="Test Cases/CheckClips" status="ERROR">
+         <error type="ERROR" message="Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject[&quot;playout&quot;] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)
+"/>
+         <system-out><![CDATA[2022-01-13 12:20:58 - [TEST_CASE][ERROR] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)
+
+
+2022-01-13 12:20:59 - [TEST_STEP][PASSED] - ids = shahid.api.CropResponse.getResponse("CLIP"): shahid.api.CropResponse.getResponse is PASSED
+
+2022-01-13 12:21:00 - [MESSAGE][PASSED] - shahid.api.CropResponse.getResponse is PASSED
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - ClipsID = StringUtils.join(ids, ","): null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - Y = ids.size(): null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - ID = ClipsID.split(","): null
+
+2022-01-13 12:21:00 - [TEST_STEP][ERROR] - for ([i = 0, i < Y, (i++)]): Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)
+
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - PlayoutURL = "https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]: null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - print(PlayoutURL): null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - PlayOut = shahid.api.SendMediaReq.SendRequest("https://api2.shahid.net/proxy/v2/playout/url/" + ID[i]): shahid.api.SendMediaReq.SendRequest is PASSED
+
+2022-01-13 12:21:00 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220113_122052/Media Monitoring/20220113_122052/requests/main/0.har
+
+2022-01-13 12:21:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-13 12:21:00 - [MESSAGE][PASSED] - shahid.api.SendMediaReq.SendRequest is PASSED
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - responseCode = getStatusCode().toString(): null
+
+2022-01-13 12:21:00 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-13 12:21:00 - [TEST_STEP][ERROR] - url = jObject.get("playout"): Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)
+
+
+2022-01-13 12:21:00 - [MESSAGE][ERROR] - Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-01-13 12:20:58 - [TEST_CASE][ERROR] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Result" time="0.134" classname="Test Cases/Result" status="PASSED">
+         <system-out><![CDATA[2022-01-13 12:21:00 - [TEST_CASE][PASSED] - Test Cases/Result: Test Cases/Result
+
+2022-01-13 12:21:01 - [TEST_STEP][PASSED] - shahid.api.SubmitFail.submitPatch(): shahid.api.SubmitFail.submitPatch is PASSED
+
+2022-01-13 12:21:01 - [MESSAGE][PASSED] - shahid.api.SubmitFail.submitPatch is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-13 12:20:58 - [TEST_SUITE][ERROR] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-13 12:20:58 - [TEST_SUITE][ERROR] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+org.json.JSONException: JSONObject["playout"] not found.
+	at org.json.JSONObject.get(JSONObject.java:473)
+	at org.json.JSONObject$get.call(Unknown Source)
+	at CheckClips.run(CheckClips:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642069252101.run(TempTestSuite1642069252101.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

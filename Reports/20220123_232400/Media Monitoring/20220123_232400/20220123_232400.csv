@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-23 23:24:07,2022-01-23 23:24:28,20.439s,ERROR
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-23 23:24:07,2022-01-23 23:24:25,17.963s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-23 23:24:07,2022-01-23 23:24:11,3.529s,PASSED
+"ids = CropResponse().getIdsList(""CLIP"")",,,,2022-01-23 23:24:11,2022-01-23 23:24:13,2.216s,PASSED
+responseCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-23 23:24:13,2022-01-23 23:24:13,0.000s,PASSED
+ActualURL = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-23 23:24:13,2022-01-23 23:24:13,0.001s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-23 23:24:13,2022-01-23 23:24:13,0.000s,PASSED
+url = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-23 23:24:13,2022-01-23 23:24:13,0.001s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-23 23:24:13,2022-01-23 23:24:13,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-23 23:24:13,2022-01-23 23:24:25,12.027s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-23 23:24:25,2022-01-23 23:24:25,0.006s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-23 23:24:25,2022-01-23 23:24:28,2.314s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-01-23 23:24:25,2022-01-23 23:24:27,1.455s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-23 23:24:27,2022-01-23 23:24:27,0.000s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-23 23:24:27,2022-01-23 23:24:27,0.005s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-23 23:24:27,2022-01-23 23:24:27,0.000s,PASSED
+"emailBody = """"",,,,2022-01-23 23:24:27,2022-01-23 23:24:27,0.000s,PASSED
+if (clipsFailedResult.size() > 0),,,,2022-01-23 23:24:27,2022-01-23 23:24:28,0.672s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-01-23 23:24:28,2022-01-23 23:24:28,0.000s,PASSED

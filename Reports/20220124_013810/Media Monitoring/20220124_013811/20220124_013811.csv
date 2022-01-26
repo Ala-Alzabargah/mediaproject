@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-24 01:38:18,2022-01-24 01:38:27,9.184s,FAILED
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-24 01:38:18,2022-01-24 01:38:23,5.106s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:38:18,2022-01-24 01:38:22,3.568s,PASSED
+"ids = [""failed"", ""932444""]",,,,2022-01-24 01:38:22,2022-01-24 01:38:22,0.000s,PASSED
+statusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:38:22,2022-01-24 01:38:22,0.000s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:38:22,2022-01-24 01:38:22,0.000s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:38:22,2022-01-24 01:38:22,0.001s,PASSED
+DRMStatusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:38:22,2022-01-24 01:38:22,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-24 01:38:22,2022-01-24 01:38:23,1.358s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:38:23,2022-01-24 01:38:23,0.006s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-24 01:38:23,2022-01-24 01:38:27,3.915s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:38:23,2022-01-24 01:38:25,1.602s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-24 01:38:25,2022-01-24 01:38:25,0.001s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-24 01:38:25,2022-01-24 01:38:25,0.000s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-24 01:38:25,2022-01-24 01:38:25,0.000s,PASSED
+"emailBody = """"",,,,2022-01-24 01:38:25,2022-01-24 01:38:25,0.001s,PASSED
+if (clipsFailedResult.size() > 0),,,,2022-01-24 01:38:25,2022-01-24 01:38:27,2.140s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:38:27,2022-01-24 01:38:27,0.002s,PASSED

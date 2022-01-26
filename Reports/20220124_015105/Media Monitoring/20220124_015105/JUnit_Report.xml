@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Media Monitoring" time="12.84" tests="2" failures="1" errors="0">
+   <testsuite name="Media Monitoring" tests="2" failures="1" errors="0" time="12.84" skipped="0" timestamp="2022-01-24 01:51:11" hostname="alalzabarga - 192.168.1.17" id="Test Suites/Media Monitoring">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105"/>
+         <property name="logFiles" value="/Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alalzabarga - 192.168.1.17"/>
+         <property name="hostAddress" value="192.168.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/CheckClips" time="8.809" classname="Test Cases/CheckClips" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CheckClips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+"/>
+         <system-out><![CDATA[2022-01-24 01:51:11 - [TEST_CASE][FAILED] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+
+
+2022-01-24 01:51:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("getToken"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:12 - [TEST_CASE][PASSED] - Test Cases/getToken: Test Cases/getToken
+
+2022-01-24 01:51:12 - [TEST_STEP][PASSED] - Ssession = SendMediaReq().getSssesion(): Test object id is null
+
+2022-01-24 01:51:13 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/0.har
+
+2022-01-24 01:51:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:13 - [MESSAGE][WARNING] - Test object id is null
+
+2022-01-24 01:51:14 - [MESSAGE][WARNING] - Test object id is null
+
+2022-01-24 01:51:14 - [TEST_STEP][PASSED] - println("Ssession:: " + Ssession): null
+
+2022-01-24 01:51:14 - [TEST_STEP][PASSED] - count = 4: null
+
+2022-01-24 01:51:14 - [TEST_STEP][PASSED] - for ([i = 0, i < count, (i++)]): null
+
+2022-01-24 01:51:14 - [TEST_STEP][PASSED] - authenticate = sendRequest(findTestObject("Object Repository/newPostmanAPIs/validateLogin", ["ssession":Ssession])): Send request successfully
+
+2022-01-24 01:51:15 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/1.har
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - println("authenticate:: " + authenticate): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(authenticate, 200): Verify response status code successfully
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - user = new org.json.JSONObject(authenticate.responseBodyContent): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - token = get("user").get("sessionId"): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - userId = get("user").get("id"): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - userEmail = get("user").get("email"): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - Token = token: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - println("tokenValue::" + Token): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - userId = userId: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - userEmail = userEmail: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - markPassed("Response status codes match"): Response status codes match
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Response status codes match
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - break: null
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - ids = ["932474", "932470", "932456", "11112", "932447", "failed", "932444"]: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - statusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - DRMStatusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-01-24 01:51:15 - [TEST_STEP][FAILED] - for ([i = 0, i < ids.size(), (i++)]): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:15 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/2.har
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:51:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:51:15 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:16 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/3.har
+
+2022-01-24 01:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - DRMStatusCode = DRMUrl.getStatusCode(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:51:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult.setStatus("Passed"): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - getClipsPassedInstance().addClipsPassedResult(passedResult): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:16 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/4.har
+
+2022-01-24 01:51:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:51:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:51:16 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:17 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/5.har
+
+2022-01-24 01:51:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - DRMStatusCode = DRMUrl.getStatusCode(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:51:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult.setStatus("Passed"): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - getClipsPassedInstance().addClipsPassedResult(passedResult): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:17 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/6.har
+
+2022-01-24 01:51:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:51:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:51:17 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:18 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/7.har
+
+2022-01-24 01:51:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - DRMStatusCode = DRMUrl.getStatusCode(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:51:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult.setStatus("Passed"): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - getClipsPassedInstance().addClipsPassedResult(passedResult): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][FAILED] - try: Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:18 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/8.har
+
+2022-01-24 01:51:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][FAILED] - if (verifyResponseStatusCode(PlayOut, 200)): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:18 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:18 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:18 - [TEST_STEP][FAILED] - catch (Exception e): *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult.setStatus("Failed"): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - getClipsFailedInstance().addClipsFailedResult(failedResult): null
+
+2022-01-24 01:51:18 - [TEST_STEP][FAILED] - markFailed("*********** e:: " + e): *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:18 - [MESSAGE][FAILED] - *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:18 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:19 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/9.har
+
+2022-01-24 01:51:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:51:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:19 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/10.har
+
+2022-01-24 01:51:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - DRMStatusCode = DRMUrl.getStatusCode(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:51:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult.setStatus("Passed"): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - getClipsPassedInstance().addClipsPassedResult(passedResult): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][FAILED] - try: Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:19 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/11.har
+
+2022-01-24 01:51:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][FAILED] - if (verifyResponseStatusCode(PlayOut, 200)): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:19 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:19 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)
+)
+
+2022-01-24 01:51:19 - [TEST_STEP][FAILED] - catch (Exception e): *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult.setStatus("Failed"): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - getClipsFailedInstance().addClipsFailedResult(failedResult): null
+
+2022-01-24 01:51:19 - [TEST_STEP][FAILED] - markFailed("*********** e:: " + e): *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:19 - [MESSAGE][FAILED] - *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - passedResult = new shahid.api.ClipsPassedResult(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - failedResult = new shahid.api.ClipsFailedResult(): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - itemPlayoutID = ids[i]: null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - println("******** GlobalVariable.itemPlayoutID :: " + itemPlayoutID): null
+
+2022-01-24 01:51:19 - [TEST_STEP][PASSED] - PlayOut = sendRequest(findTestObject("Object Repository/Decode/Playout API/Playout", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:20 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/12.har
+
+2022-01-24 01:51:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - responseBody = PlayOut.getResponseBodyContent(): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - statusCode = PlayOut.getStatusCode(): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(PlayOut, 200)): null
+
+2022-01-24 01:51:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - jObject = new org.json.JSONObject(responseBody): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - println("jObject::  " + jObject + "
+ url: " + responseBody): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - DRM = get("playout").get("drm"): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - println("******* DRM:: " + DRM): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - if (DRM): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - DRMUrl = sendRequest(findTestObject("Object Repository/Decode/Playout API/drm", ["ssession":ssession])): Send request successfully
+
+2022-01-24 01:51:20 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/13.har
+
+2022-01-24 01:51:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - DRMresponseBody = DRMUrl.getResponseBodyContent(): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - DRMStatusCode = DRMUrl.getStatusCode(): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - if (verifyResponseStatusCode(DRMUrl, 200)): null
+
+2022-01-24 01:51:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setDRM(DRM): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setDRMStatusCode(DRMStatusCode): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setDRMResponse(DRMresponseBody): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setAssetID(itemPlayoutID): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setStatuscode(statusCode): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setResponse(responseBody): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - passedResult.setStatus("Passed"): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - getClipsPassedInstance().addClipsPassedResult(passedResult): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - println("testCaseContext.getTestCaseId():: " + testCaseContext.getTestCaseId()): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - if (!(getTestCaseId().contains("sendEmailtest") || getTestCaseId().contains("Result") || getTestCaseId().contains("getDrmToken") || getTestCaseId().contains("getiTuensBaseToken") || getTestCaseId().contains("getSsession"))): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - if (testCaseContext.getTestCaseStatus() == "FAILED"): null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - failedTestCases += 1: null
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - println("testCaseContext:: FAILED:: GlobalVariable.failedTestCases::" + failedTestCases): null]]></system-out>
+         <system-err><![CDATA[2022-01-24 01:51:11 - [TEST_CASE][FAILED] - Test Cases/CheckClips: Test Cases/CheckClips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sendEmailtest" time="3.873" classname="Test Cases/sendEmailtest" status="PASSED">
+         <system-out><![CDATA[2022-01-24 01:51:20 - [TEST_CASE][PASSED] - Test Cases/sendEmailtest: Test Cases/sendEmailtest
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("getToken"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:20 - [TEST_CASE][PASSED] - Test Cases/getToken: Test Cases/getToken
+
+2022-01-24 01:51:20 - [TEST_STEP][PASSED] - Ssession = SendMediaReq().getSssesion(): Send request successfully
+
+2022-01-24 01:51:21 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/14.har
+
+2022-01-24 01:51:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:21 - [TEST_STEP][PASSED] - println("Ssession:: " + Ssession): null
+
+2022-01-24 01:51:21 - [TEST_STEP][PASSED] - count = 4: null
+
+2022-01-24 01:51:21 - [TEST_STEP][PASSED] - for ([i = 0, i < count, (i++)]): null
+
+2022-01-24 01:51:21 - [TEST_STEP][PASSED] - authenticate = sendRequest(findTestObject("Object Repository/newPostmanAPIs/validateLogin", ["ssession":Ssession])): Send request successfully
+
+2022-01-24 01:51:22 - [MESSAGE][INFO] - HAR: /Users/alalzabarga/git/mediaProject/Reports/20220124_015105/Media Monitoring/20220124_015105/requests/main/15.har
+
+2022-01-24 01:51:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - println("authenticate:: " + authenticate): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - try: null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(authenticate, 200): Verify response status code successfully
+
+2022-01-24 01:51:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - user = new org.json.JSONObject(authenticate.responseBodyContent): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - token = get("user").get("sessionId"): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - userId = get("user").get("id"): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - userEmail = get("user").get("email"): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - Token = token: null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - println("tokenValue::" + Token): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - userId = userId: null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - userEmail = userEmail: null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - markPassed("Response status codes match"): Response status codes match
+
+2022-01-24 01:51:22 - [MESSAGE][PASSED] - Response status codes match
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - break: null
+
+2022-01-24 01:51:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/getToken' successfully
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - println("clipsFailedResult Size = " + clipsFailedResult.size()): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - emailBody = "": null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - if (clipsFailedResult.size() > 0): null
+
+2022-01-24 01:51:22 - [TEST_STEP][PASSED] - sendEmail().sendMailByGroovy(): null
+
+2022-01-24 01:51:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-01-24 01:51:24 - [TEST_STEP][PASSED] - println("testCaseContext.getTestCaseId():: " + testCaseContext.getTestCaseId()): null
+
+2022-01-24 01:51:24 - [TEST_STEP][PASSED] - if (!(getTestCaseId().contains("sendEmailtest") || getTestCaseId().contains("Result") || getTestCaseId().contains("getDrmToken") || getTestCaseId().contains("getiTuensBaseToken") || getTestCaseId().contains("getSsession"))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-24 01:51:11 - [TEST_SUITE][FAILED] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-24 01:51:11 - [TEST_SUITE][FAILED] - Media Monitoring: Test Cases/CheckClips FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: *********** e:: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at CheckClips.run(CheckClips:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642981865019.run(TempTestSuite1642981865019.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

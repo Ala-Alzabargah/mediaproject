@@ -1,0 +1,107 @@
+{
+  "keywordFileContentHash": "BDE3C1A18F874A66AA6E9CB0BCFAE4B8",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.EpisodesResult2",
+      "keywordMethods": [
+        {
+          "name": "getResponse2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setResponse2",
+          "parameters": [
+            {
+              "name": "response",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getStatuscode2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setStatuscode2",
+          "parameters": [
+            {
+              "name": "statuscode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getApiname2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setApiname2",
+          "parameters": [
+            {
+              "name": "apiname",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getURL2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setURL2",
+          "parameters": [
+            {
+              "name": "URL",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

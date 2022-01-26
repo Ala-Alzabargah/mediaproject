@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-26 14:34:24,2022-01-26 14:34:30,5.695s,ERROR
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-26 14:34:24,2022-01-26 14:34:28,3.658s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-01-26 14:34:25,2022-01-26 14:34:28,3.379s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-26 14:34:28,2022-01-26 14:34:28,0.008s,PASSED
+,,,,,,,
+Test Cases/SendEmail,,,,2022-01-26 14:34:28,2022-01-26 14:34:30,1.877s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-26 14:34:28,2022-01-26 14:34:30,1.691s,PASSED
+ClipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.005s,PASSED
+EpisodesFailedResult = getEpisodesFailedInstance().getEpisodesFailedResults(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.004s,PASSED
+MoviesFailedResult = getMoviesFailedInstance().getMoviesFailedResults(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.004s,PASSED
+ClipsFailedNum = ClipsFailedResult.size(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.001s,PASSED
+EpisodesFailedNum = EpisodesFailedResult.size(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.000s,PASSED
+MoviesFailedNum = MoviesFailedResult.size(),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.001s,PASSED
+"println(""ClipsFailedNum Size = "" + ClipsFailedNum)",,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.000s,PASSED
+"println(""ClipsFailedNum Size = "" + EpisodesFailedNum)",,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.001s,PASSED
+"println(""ClipsFailedNum Size = "" + EpisodesFailedNum)",,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.000s,PASSED
+"emailBody = """"",,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.000s,PASSED
+if (ClipsFailedNum > 0 || EpisodesFailedNum > 0 || EpisodesFailedNum > 0),,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-26 14:34:30,2022-01-26 14:34:30,0.002s,PASSED

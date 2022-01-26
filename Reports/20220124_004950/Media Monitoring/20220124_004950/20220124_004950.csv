@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-24 00:49:57,2022-01-24 00:50:07,9.886s,FAILED
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-24 00:49:57,2022-01-24 00:50:03,5.189s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 00:49:57,2022-01-24 00:49:57,0.003s,PASSED
+"ids = [932474, 932470, 932456, 11112, 932447, ""failed"", 932444]",,,,2022-01-24 00:49:58,2022-01-24 00:49:58,0.001s,PASSED
+responseCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 00:49:58,2022-01-24 00:49:58,0.001s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 00:49:58,2022-01-24 00:49:58,0.001s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 00:49:58,2022-01-24 00:49:58,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-24 00:49:58,2022-01-24 00:50:03,4.965s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.007s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-24 00:50:03,2022-01-24 00:50:07,4.522s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.000s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.001s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.004s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.000s,PASSED
+"emailBody = """"",,,,2022-01-24 00:50:03,2022-01-24 00:50:03,0.001s,PASSED
+sendEmail().sendMailByGroovy(),,,,2022-01-24 00:50:03,2022-01-24 00:50:05,2.398s,PASSED
+if (clipsFailedResult.size() > 0),,,,2022-01-24 00:50:05,2022-01-24 00:50:07,1.945s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 00:50:07,2022-01-24 00:50:07,0.001s,PASSED

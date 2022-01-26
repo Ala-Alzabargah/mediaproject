@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-24 01:05:56,2022-01-24 01:06:11,15.177s,FAILED
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-24 01:05:56,2022-01-24 01:06:07,11.160s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:05:56,2022-01-24 01:06:00,3.749s,PASSED
+"ids = [932474, 932470, 932456, 11112, 932447, ""failed"", 932444]",,,,2022-01-24 01:06:00,2022-01-24 01:06:00,0.001s,PASSED
+responseCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:06:00,2022-01-24 01:06:00,0.000s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:06:00,2022-01-24 01:06:00,0.000s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:06:00,2022-01-24 01:06:00,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-24 01:06:00,2022-01-24 01:06:07,7.217s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:06:07,2022-01-24 01:06:07,0.007s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-24 01:06:08,2022-01-24 01:06:11,3.850s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:06:08,2022-01-24 01:06:09,1.480s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-24 01:06:09,2022-01-24 01:06:09,0.001s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-24 01:06:09,2022-01-24 01:06:09,0.001s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-24 01:06:09,2022-01-24 01:06:09,0.000s,PASSED
+"emailBody = """"",,,,2022-01-24 01:06:09,2022-01-24 01:06:09,0.000s,PASSED
+if (clipsFailedResult.size() > 0),,,,2022-01-24 01:06:09,2022-01-24 01:06:11,2.192s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:06:11,2022-01-24 01:06:11,0.001s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-24 01:48:08,2022-01-24 01:48:21,12.884s,FAILED
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-24 01:48:08,2022-01-24 01:48:17,8.790s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:48:08,2022-01-24 01:48:12,3.593s,PASSED
+"ids = [""932474"", ""932470"", ""932456"", ""11112"", ""932447"", ""failed"", ""932444""]",,,,2022-01-24 01:48:12,2022-01-24 01:48:12,0.001s,PASSED
+statusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:48:12,2022-01-24 01:48:12,0.001s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:48:12,2022-01-24 01:48:12,0.000s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:48:12,2022-01-24 01:48:12,0.001s,PASSED
+DRMStatusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:48:12,2022-01-24 01:48:12,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-24 01:48:12,2022-01-24 01:48:17,5.014s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:48:17,2022-01-24 01:48:17,0.006s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-24 01:48:17,2022-01-24 01:48:21,3.936s,PASSED
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:48:17,2022-01-24 01:48:18,1.460s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-24 01:48:18,2022-01-24 01:48:18,0.000s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-24 01:48:18,2022-01-24 01:48:18,0.001s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-24 01:48:18,2022-01-24 01:48:18,0.000s,PASSED
+"emailBody = """"",,,,2022-01-24 01:48:18,2022-01-24 01:48:18,0.001s,PASSED
+if (clipsFailedResult.size() > 0),,,,2022-01-24 01:48:18,2022-01-24 01:48:21,2.297s,PASSED
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:48:21,2022-01-24 01:48:21,0.001s,PASSED

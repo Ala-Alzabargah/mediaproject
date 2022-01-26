@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-13 12:18:05,2022-01-13 12:18:09,4.053s,ERROR
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-13 12:18:05,2022-01-13 12:18:08,3.746s,ERROR
+"ids = shahid.api.CropResponse.getResponse(""CLIP"")",,,,2022-01-13 12:18:05,2022-01-13 12:18:08,2.583s,PASSED
+"ClipsID = StringUtils.join(ids, "","")",,,,2022-01-13 12:18:08,2022-01-13 12:18:08,0.008s,PASSED
+Y = ids.size(),,,,2022-01-13 12:18:08,2022-01-13 12:18:08,0.000s,PASSED
+"ID = ClipsID.split("","")",,,,2022-01-13 12:18:08,2022-01-13 12:18:08,0.001s,PASSED
+"for ([i = 0, i < Y, (i++)])",,,,2022-01-13 12:18:08,2022-01-13 12:18:08,0.659s,ERROR
+,,,,,,,
+Test Cases/Result,,,,2022-01-13 12:18:08,2022-01-13 12:18:09,0.124s,PASSED
+shahid.api.SubmitFail.submitPatch(),,,,2022-01-13 12:18:09,2022-01-13 12:18:09,0.009s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Media Monitoring,,,,2022-01-24 01:17:58,2022-01-24 01:18:06,7.804s,ERROR
+,,,,,,,
+Test Cases/CheckClips,,,,2022-01-24 01:17:59,2022-01-24 01:18:04,5.776s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:17:59,2022-01-24 01:18:03,4.597s,PASSED
+"ids = [932474, 932470, 932456, 11112, 932447, ""failed"", 932444]",,,,2022-01-24 01:18:03,2022-01-24 01:18:03,0.000s,PASSED
+statusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:18:03,2022-01-24 01:18:03,0.001s,PASSED
+responseBody = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:18:03,2022-01-24 01:18:03,0.000s,PASSED
+DRM = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:18:03,2022-01-24 01:18:03,0.001s,PASSED
+DRMStatusCode = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-01-24 01:18:03,2022-01-24 01:18:03,0.000s,PASSED
+"for ([i = 0, i < ids.size(), (i++)])",,,,2022-01-24 01:18:03,2022-01-24 01:18:04,0.959s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:18:04,2022-01-24 01:18:04,0.008s,PASSED
+,,,,,,,
+Test Cases/sendEmailtest,,,,2022-01-24 01:18:04,2022-01-24 01:18:06,1.674s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2022-01-24 01:18:04,2022-01-24 01:18:06,1.375s,PASSED
+clipsFailedResult = getClipsFailedInstance().getClipsFailedResults(),,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.004s,PASSED
+clipsPassedResult = getClipsPassedInstance().getClipsPassedResults(),,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.004s,PASSED
+"println(""clipsFailedResult Size = "" + clipsFailedResult.size())",,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.000s,PASSED
+"emailBody = """"",,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.000s,PASSED
+sendEmail().sendMailByGroovy(),,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.112s,ERROR
+Start listener action : sampleAfterTestCase,,,,2022-01-24 01:18:06,2022-01-24 01:18:06,0.001s,PASSED

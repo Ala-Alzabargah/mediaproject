@@ -1,0 +1,69 @@
+{
+  "keywordFileContentHash": "0295A8F086C29BB008FD2653479A7CA6",
+  "keywordClasses": [
+    {
+      "name": "shahid.api.EpisodesFailedPatch",
+      "keywordMethods": [
+        {
+          "name": "Patch2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getEpisodesFailedInstance",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getEpisodesFailedResults",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "addEpisodesFailedResult",
+          "parameters": [
+            {
+              "name": "result2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "shahid.api.FailedResult",
+                "unresolvedClassName": "FailedResult",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getTimestamp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setTimestamp",
+          "parameters": [
+            {
+              "name": "timestamp",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
